@@ -1,0 +1,8 @@
+remaove main bottom part of admin panel
+update ur pic
+delivery
+user serach
+action edit (active to disable)
+core ui -> rd store
+color combination
+bcrypt

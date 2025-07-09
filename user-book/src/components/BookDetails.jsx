@@ -9,7 +9,7 @@ function BookDetail() {
     let[pincode , setPincode]=useState();
     useEffect(() => {
         axios({
-            url: 'http://localhost:3001/user/book/' + param.id,
+            url: 'https://mern-bookstore-hd67.onrender.com/user/book/' + param.id,
             method: 'get'
         }).then((res) => {
             console.log(res);
@@ -24,7 +24,7 @@ function BookDetail() {
             pincode :pincode
         }
         axios({
-            url:"http://localhost:3001/check/status",
+            url:"https://mern-bookstore-hd67.onrender.com/check/status",
             method :"post",
             data :data,
         }).then((res)=>{

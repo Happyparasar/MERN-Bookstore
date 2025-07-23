@@ -19,7 +19,7 @@ This is a full-stack MERN application that includes:
 
 | Layer     | Technology                       |
 |-----------|----------------------------------|
-| Frontend  | React.js, Vite, Tailwind CSS     |
+| Frontend  | React.js, Vite, Bootstrap        |
 | Backend   | Node.js, Express.js, MongoDB     |
 | Payment   | Stripe API                       |
 | Auth      | JSON Web Token (JWT)             |
